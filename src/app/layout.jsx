@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Providers from "./Providers";
+import NavField from "@/components/NavField";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
           {/* Header */}
           <Header />
 
-          {/* Navbar */}
-
+          {/* NavField */}
+          <NavField />
+          
           {/* SearchBox */}
 
           {children}

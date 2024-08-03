@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
+    <div className="max-w-6xl mx-auto space-y-4 p-5">
         <h1 className="text-2xl font-medium text-gray-400">About</h1>
         <p>
         Welcome to geeDB, your ultimate destination for discovering and exploring movies and TV shows. 
