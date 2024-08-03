@@ -13,7 +13,7 @@ export default function NavFieldItem({ title, param }) {
             ${
                 genre && genre === param && "underline underline-offset-8 decoration-4 decoration-green-600 rounded-lg"
             }`}
-        href={`/?genre=${param}`}>
+            href={`/?genre=${param}`}>
             {title}
         </Link>
     </div>
