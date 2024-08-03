@@ -17,7 +17,7 @@ export default function Header() {
             <DarkModeToggle />
             <MenuItem title="Login" address="/login" Icon={RiAccountCircleFill} />
             <Link href="/">
-              <h2 className="text-2xl font-bold text-green-950 bg-green-500 py-1 px-2 rounded-lg mr-1">geekDB</h2>
+              <h2 className="text-2xl font-bold text:500 bg-gray-200 py-1 px-2 rounded-lg mr-1 hover:text-green-500">geekDB</h2>
             </Link>
         </div>
 
