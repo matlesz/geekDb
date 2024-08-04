@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from 'react';
+
 
 export default function NavFieldItem({ title, param }) {
     const searchParams = useSearchParams();
@@ -18,4 +20,12 @@ export default function NavFieldItem({ title, param }) {
         </Link>
     </div>
   )
+}
+
+export default function NavFieldItemWrapper(props) {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <NavFieldItem {...props} />
+        </Suspense>
+    );
 }
