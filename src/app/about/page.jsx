@@ -5,7 +5,7 @@ export default function About() {
         <p>
         Welcome to geeDB, your ultimate destination for discovering and exploring movies and TV shows. 
         Our platform offers a comprehensive database of films and series, complete with detailed information, ratings, and reviews, some functionalities coming soon. 
-        Whether you're a casual viewer or a dedicated cinephile, geeDB provides all the tools you need to find your next favorite watch. 
+        Whether you are a casual viewer or a dedicated cinephile, geeDB provides all the tools you need to find your next favorite watch. 
         Join our community and dive into the world of entertainment with geeDB.
         </p>
     </div>
