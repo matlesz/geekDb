@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import Providers from "./Providers";
 import NavField from "@/components/NavField";
 import SearchBar from "@/components/SearchBar";
