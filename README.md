@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Deployed [here](https://geek-db-matleszs-projects.vercel.app/)
 
+Github repo [here](https://github.com/matlesz/geekDb)
+
 ## Getting Started
 
 First, run the development server:
