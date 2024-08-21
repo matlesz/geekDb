@@ -4,6 +4,8 @@ Deployed [here](https://geek-db-matleszs-projects.vercel.app/)
 
 Github repo [here](https://github.com/matlesz/geekDb)
 
+YouTube walkthrough [here](https://youtu.be/V8HHf7jUuWI)
+
 ## Getting Started
 
 First, run the development server:
